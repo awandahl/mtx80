@@ -1,1 +1,25 @@
 
+Hi Peder,
+
+I have revised the software to add the shutdown after 3 hours.
+I measured a current of 2.2mA after shutdown.
+
+I have compiled with standard settings. You can edit and re-compile as before, as you want.
+
+In the 'constants' section.
+     You can change the shutdown time.
+    The line with  'timeLimit=18;' sets the run time to 3 hours. The hours have to be multiplied by 6, because it counts in 10min units
+
+In the section  EEPROM LOAD 
+      You can change the default callsign from 'ARDF'
+      I have added SM0GMS and SM0HPL options.
+      Edit, so only one line starts with '#rom '
+      All others should start with '//' , which makes the whole line a comment statement and is ignored when compiling.
+
+.In the 'void hunt_ini(void)' function section
+   line 282: change nfoxes=2; to nfoxes=3;
+   line 287: similar
+
+hope that helps
+
+73 Dave G3ZOI
