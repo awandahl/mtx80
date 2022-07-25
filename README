@@ -57,6 +57,8 @@ In the section  EEPROM LOAD
       Edit, so only one line starts with '#rom '
       All others should start with '//' , which makes the whole line a comment statement and is ignored when compiling.
 
+
+
 .In the 'void hunt_ini(void)' function section
    line 282: change nfoxes=2; to nfoxes=3;
    line 287: similar
@@ -64,3 +66,5 @@ In the section  EEPROM LOAD
 hope that helps
 
 73 Dave G3ZOI
+
+
