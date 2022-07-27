@@ -1,13 +1,13 @@
 
 
 
-PicKit      16F628
+PicKit      16F628    
 
-1    mclr    4
-2    vdd    14
-3    vss    5
-4    data    13
-5    clk    12 
+1    mclr    4    
+2    vdd    14    
+3    vss    5    
+4    data    13    
+5    clk    12    
 
 
 Hi Peder,
