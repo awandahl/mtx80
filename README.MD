@@ -1,5 +1,15 @@
 
 
+
+PicKit      16F628
+
+1    mclr    4
+2    vdd    14
+3    vss    5
+4    data    13
+5    clk    12 
+
+
 Hi Peder,
 
 Very interested in having your feedback on the 80m MTX  and  the  ROX80.
